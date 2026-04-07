@@ -14,7 +14,7 @@
         - Method – indicates the type of operation the client would like to perform on a given resource. REST APIs are accessible through standard HTTP methods that do actions like retrieving, creating, updating, and deleting data
         - Parameters – the variables that are passed to an API endpoint to provide specific instructions for the API to process. These parameters can be included in the API request as part of the URL, in the query string, or in the request body
             - Parameters in the URL come after the ; character while parameters in the query string come after the ? character (which comes after the URL)
-            - <scheme>://<username>:<password>@<host>:<port>/<path>;<parameters>?<query>#<fragment>
+            - `<scheme>://<username>:<password>@<host>:<port>/<path>;<parameters>?<query>#<fragment>`
         - Request headers – key-value pairs that provide extra details about the request, such as its content type or authentication details
         - Request body – The main part of the request, includes the actual data that is required to create, update, or delete a resource (i.e. if you were creating a new article in a blogging app, the request body would likely include the article’s content, title, and author)
     - (3) API server
